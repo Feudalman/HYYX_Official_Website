@@ -1,0 +1,55 @@
+/* foot */
+.foot {
+    height: 15%;
+    width: 100%;
+    background-color: rgba(26, 18, 18, 0.897);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.foot .toes{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.foot .toe{
+    width: 35%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: rgb(163, 163, 163);
+    font-size: 170%;
+}
+
+.foot .toe a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.foot .foot_about {
+    position: relative;
+    left: 3%;
+    top: 25%;
+}
+
+.foot .foot_com {
+    color: rgb(163, 163, 163);
+    position: relative;
+    right: 0.6%;
+    top: 60%;
+}
+
+.foot .foot_contact {
+    color: rgb(163, 163, 163);
+    position: relative;
+    left: 60%;
+    top: 60%;
+}

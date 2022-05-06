@@ -1,0 +1,17 @@
+.page1 {
+    height: 93%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.page{
+    height: 110%;
+    width:100%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}

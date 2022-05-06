@@ -1,0 +1,31 @@
+nav {
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+nav .left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav .left img {
+    height: 70%;
+    border-radius: 10%;
+    pointer-events: none;
+}
+
+nav a {
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2%;
+    margin-left: 70px;
+}
+
+nav a.router-link-exact-active {
+    border-bottom: 5px solid #70C268;
+}
